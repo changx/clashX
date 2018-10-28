@@ -1,13 +1,13 @@
-package main // import "github.com/yichengchen/clashX/ClashX"
+package main // import "github.com/changx/clashX/ClashX"
 
 import (
 	"C"
 
-	"github.com/Dreamacro/clash/config"
-	"github.com/Dreamacro/clash/hub"
-	"github.com/Dreamacro/clash/proxy"
-	"github.com/Dreamacro/clash/tunnel"
-	"github.com/Dreamacro/clash/constant"
+	"github.com/changx/clash/config"
+	"github.com/changx/clash/constant"
+	"github.com/changx/clash/hub"
+	"github.com/changx/clash/proxy"
+	"github.com/changx/clash/tunnel"
 )
 import (
 	"os"
@@ -41,7 +41,7 @@ func updateAllConfig() *C.char {
 }
 
 //export setConfigHomeDir
-func setConfigHomeDir(root string){
+func setConfigHomeDir(root string) {
 	constant.SetHomeDir(root)
 }
 func main() {

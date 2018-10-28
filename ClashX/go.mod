@@ -1,3 +1,3 @@
-module github.com/yichengchen/clashX/ClashX
+module github.com/changx/clashX/ClashX
 
-require github.com/Dreamacro/clash v0.8.2-0.20181027045756-19cbe5245616
+require github.com/changx/clash v0.8.2
